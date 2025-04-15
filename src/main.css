@@ -12,14 +12,15 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --txt-color: #413008;
-  --bg-color: #bacbad;
+  --txt-color: #e4d0a1;
+  --bg-color: #3c3726;
   --card-color: #d3fdb37b;
-  --shadow-color: darkolivegreen;
+  --shadow-color: rgb(115, 85, 10);
   --btn-bg: #e4f5a9a2;
   --btn-focus: #e5f5a9;
   --inpt-color: whitesmoke;
   --err-color: #037b7b;
+  --hdr-color: rgb(137, 119, 87);
 }
 body {
   margin: 0;
@@ -29,4 +30,8 @@ body {
 }
 ul {
   list-style-type: none;
+}
+.ReactModal__Body--open,
+.ReactModal__Html--open {
+  overflow: hidden;
 }
