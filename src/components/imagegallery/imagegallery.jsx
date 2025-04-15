@@ -1,5 +1,5 @@
-import s from './img-gallery.module.css';
-import ImageCard from '../img-card/img-card';
+import s from './imagegallery.module.css';
+import ImageCard from '../imagecard/imagecard';
 
 export default function ImageGallery({ images, onEnlarge }) {
   return (

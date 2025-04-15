@@ -13,8 +13,7 @@
 }
 .bigger_picture {
   padding: 8px 12px;
-  width: 80%;
-  max-width: 1400px;
+  width: 94%;
   height: max-content;
   position: relative;
   display: flex;
@@ -55,4 +54,11 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+@media only screen and (min-width: 1000px) {
+  .bigger_picture {
+    width: 80%;
+    max-width: 1400px;
+    height: 90vh;
+  }
 }

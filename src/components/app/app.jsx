@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
 import s from './app.module.css';
 import toast, { Toaster } from 'react-hot-toast';
-import SearchBar from '../search-bar/search-bar';
-import ErrorMessage from '../error-message/error-message';
-import ImageGallery from '../img-gallery/img-gallery';
+import SearchBar from '../searchbar/searchbar';
+import ErrorMessage from '../errormessage/errormessage';
+import ImageGallery from '../imagegallery/imagegallery';
 import Loader from '../loader/loader';
-import LoadMoreBtn from '../load-more/load-more';
-import ImageModal from '../img-modal/img-modal';
+import LoadMoreBtn from '../loadmorebtn/loadmorebtn';
+import ImageModal from '../imagemodal/imagemodal';
 import { requestData } from '../../services/api';
 
 export default function App() {

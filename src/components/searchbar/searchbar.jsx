@@ -1,4 +1,4 @@
-import s from './search-bar.module.css';
+import s from './searchbar.module.css';
 import { FaMagnifyingGlass } from 'react-icons/fa6';
 import { Formik, Form, Field } from 'formik';
 

@@ -1,4 +1,4 @@
-import s from './img-modal.module.css';
+import s from './imagemodal.module.css';
 import ReactModal from 'react-modal';
 import { MdClose } from 'react-icons/md';
 import { BiLike } from 'react-icons/bi';

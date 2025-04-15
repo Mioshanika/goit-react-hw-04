@@ -1,4 +1,4 @@
-import s from './img-card.module.css';
+import s from './imagecard.module.css';
 
 export default function ImageCard({ image, onEnlarge }) {
   return (
